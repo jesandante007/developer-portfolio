@@ -1,5 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  color: white;
+  background: #fd6e0a;
+  padding: 18px 35px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* ----header & navigation styles---- */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 225px;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+/* ------header banner------- */
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 225px;
+}
+.banner-subtitle {
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+.details {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* -------------main------------- */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* -----------about-me------------ */
+.about-me {
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 155px;
+  text-align: center;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info p:first-child{
+    color: #757575;
+    font-size: 20px;
+}
+.about-info p:last-child{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
 }
